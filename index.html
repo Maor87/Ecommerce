@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JORDAN'S PLACE</title>
+</head>
+<body>
+   <div id="main-container">
+	<header>
+		<h1>JORDAN'S PLACE!</h1>
+	</header>
+
+    <label for="nav-toggle" id="nav-toggle-label"><strong>Menu</strong></label>
+    <input type="checkbox" id="nav-toggle">
+
+	<nav id="nav-menu">
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	   <!--for the cart -->
+       <div class="cart">
+        <a href="checkout.html" class="cart-link">
+        <img src="img/cart.png" width="50" alt="cart">
+        <span class="cart-count"></span>
+      </a>
+     </div>
+
+        <!--for the checkout page -->
+      <div class="checkout-page">
+       <h2>Checkout</h2>
+       <ul class="checkout-items"></ul>
+       <p class="total-price"></p>
+    </div>
+
+	<main>
+		<h2>Featured Products:</h2>
+		  <div class="product-grid" id="products">
+	        <div class="product-card">
+				<img src="img/blackgreen_jordans.jpg" width="235" alt="black lizard jordans">
+				<h3>Lizard Jordans</h3>
+				<p>$70.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/blackred_jordans.jpg" width="235" alt="Red Dragon Jordans">
+				<h3>Dragon Jordans</h3>
+				<p>$85.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/blackyellow_jordans.jpg" width="235" alt="Venom Jordans">
+				<h3>Venom Jordans</h3>
+				<p>$80.99</p>
+				<button>Add to Cart</button>
+			</div>
+
+			<div class="product-card">
+				<img src="img/air_jordans.jpeg" width="235" height="235" alt="Air Jordans">
+				<h3>Air Jordans</h3>
+				<p>$60.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/new_airs.webp" width="235" height="235" alt="New Airs Jordans">
+				<h3>New Airs</h3>
+				<p>$95.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/blackwhite_jordans.jpeg" width="235" height="235" alt="blackWhite Jordans">
+				<h3>black Jordans</h3>
+				<p>$90.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/blackstrip_jordans.webp" width="235" height="235" alt="blackStrip Jordans">
+				<h3>blackStrip Jordans</h3>
+				<p>$100.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/VII_jordans.jpg" width="235" height="235" alt="Air5 Jordans">
+				<h3>Air5 Jordans</h3>
+				<p>$120.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/air6_jordans.jpg" width="235" height="235" alt="Air6 Jordans">
+				<h3>Air6 Jordans</h3>
+				<p>$88.99</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-card">
+				<img src="img/nike_jordans.jpg" width="235" height="235" alt="blackStrip Jordans">
+				<h3>NikeAir Jordans</h3>
+				<p>$90.99</p>
+				<button>Add to Cart</button>
+			</div>
+		</div>
+	</main>
+   
+   
+	<footer>
+		<p>Copyright 2022 My Ecommerce Store</p>
+	</footer>
+
+	<script src="app.js"></script>
+</body>
+</html>
